@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  padding-top: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+form {
+  max-width: 50%;
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  background-color: #2e2d4e;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+button {
+  background-color: #8b8ae1;
+  color: lightgray;
+  border: none;
+  height: 40px;
+  padding: 10px;
+  font-weight: 500;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input {
+  border: 1px solid #48456C;
+  border-radius: 30px;
+  height: 40px;
+  padding-left: 15px;
+  background-color: #363653;
+  color: white;
+}
+
+input::placeholder {
+  color:rgb(172, 172, 172);
+  font-weight: 400;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #8b8ae1;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e2d4e;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.card p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card p span {
+  font-weight: 400;
+}
+
+.card button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.card button:hover {
+  opacity: 0.5;
+}
+
+
+.card button img {
+  width: 25px;
+  height: 25px;
+
+}
+
